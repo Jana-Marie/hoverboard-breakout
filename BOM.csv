@@ -2,7 +2,7 @@
 1;"C2,C1";"C_Disc_D5.0mm_W2.5mm_P5.00mm";2;"100nF";;;
 2;"C3,C4";"C_Disc_D5.0mm_W2.5mm_P5.00mm";2;"1uF";;;
 3;"R2,R1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";2;"To be calculated (only populate if I2c is NOT used)";;;
-4;"R7,R6";"R_0603";2;"100nF";;;
+4;"R7,R6";"R_0603";2;"Parallel to R2,R1";;;
 5;"C7,C8";"C_0603";2;"100nF";;;
 6;"D1,D2";"D_DO-41_SOD81_P7.62mm_Horizontal";2;"1N400x";;;
 7;"U1";"SOT-89-3_Handsoldering";1;"L7805SOT89";;;
