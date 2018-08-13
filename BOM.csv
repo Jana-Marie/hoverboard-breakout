@@ -1,0 +1,18 @@
+"ID";"Bezeichner";"Gehäuse";"Stückzahl";"Bezeichnung";"Anbieter und Referenz";
+1;"C2,C1";"C_Disc_D5.0mm_W2.5mm_P5.00mm";2;"100nF";;;
+2;"C3,C4";"C_Disc_D5.0mm_W2.5mm_P5.00mm";2;"1uF";;;
+3;"R2,R1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";2;"To be calculated";;;
+4;"R7,R6";"R_0603";2;"100nF";;;
+5;"C7,C8";"C_0603";2;"100nF";;;
+6;"D1,D2";"D_DO-41_SOD81_P7.62mm_Horizontal";2;"1N400x";;;
+7;"U1";"SOT-89-3_Handsoldering";1;"L7805SOT89";;;
+8;"UART1";"Pin_Header_Straight_1x03_Pitch2.54mm";1;"Conn_01x03";;;
+9;"R3";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";1;"220Ohm";;;
+10;"R4,R5";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";2;"3k3";;;
+11;"C5,C6";"CP_Radial_D5.0mm_P2.00mm";2;"22uF";;;
+12;"J1,J2";"JST_XH_B04B-XH-A_04x2.50mm_Straight";2;"JST PH";;;
+13;"J4,J5,J3";"TerminalBlock_4UCON_19963_02x3.5mm_Straight";3;"Screw_Terminal_01x02";;;
+14;"D3";"LED_D3.0mm";1;"LED";;;
+15;"JP1,JP2";"SOLDER-JUMPER_2-WAY";2;"Jumper_NC_Dual";;;
+16;"J6";"NUNCHUCK";1;"Conn_01x04";;;
+17;"G***";"otterimage_crop_13";1;"LOGO";;;
