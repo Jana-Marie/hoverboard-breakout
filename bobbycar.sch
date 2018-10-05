@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:bobbycar-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L device:C C4
+L Device:C C4
 U 1 1 5AB407B6
 P 5550 3600
 F 0 "C4" H 5665 3646 50  0000 L CNN
@@ -26,7 +25,7 @@ F 3 "" H 5550 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C3
+L Device:C C3
 U 1 1 5AB40828
 P 4750 3600
 F 0 "C3" H 4865 3646 50  0000 L CNN
@@ -37,7 +36,7 @@ F 3 "" H 4750 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x04 J2
+L Connector_Generic:Conn_01x04 J2
 U 1 1 5AB40975
 P 2900 3550
 F 0 "J2" H 2820 3125 50  0000 C CNN
@@ -124,15 +123,8 @@ F 3 "" H 3100 3950 50  0001 C CNN
 	1    3100 3950
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4700 3450 4750 3450
-Wire Wire Line
-	5450 3450 5550 3450
-Connection ~ 5550 3450
-Wire Wire Line
-	5550 3450 5600 3450
 $Comp
-L device:C_Small C2
+L Device:C_Small C2
 U 1 1 5AB411A2
 P 3450 3650
 F 0 "C2" H 3542 3696 50  0000 L CNN
@@ -143,7 +135,7 @@ F 3 "" H 3450 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C1
+L Device:C_Small C1
 U 1 1 5AB411E3
 P 3450 3350
 F 0 "C1" H 3542 3396 50  0000 L CNN
@@ -154,7 +146,7 @@ F 3 "" H 3450 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R2
+L Device:R_Small R2
 U 1 1 5AB412F6
 P 3600 3650
 F 0 "R2" H 3659 3696 50  0000 L CNN
@@ -165,7 +157,7 @@ F 3 "" H 3600 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R1
+L Device:R_Small R1
 U 1 1 5AB41339
 P 3600 3350
 F 0 "R1" H 3659 3396 50  0000 L CNN
@@ -219,10 +211,6 @@ F 3 "" H 3450 3250 50  0001 C CNN
 	1    3450 3250
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3600 3450 3450 3450
-Wire Wire Line
-	3600 3550 3450 3550
 Text GLabel 4100 3450 2    50   Input ~ 0
 TX
 Text GLabel 4100 3550 2    50   Input ~ 0
@@ -232,7 +220,7 @@ TX
 Text GLabel 6100 3700 0    50   Input ~ 0
 RX
 $Comp
-L device:D D2
+L Device:D D2
 U 1 1 5AB41CA8
 P 3100 3800
 F 0 "D2" V 3054 3879 50  0000 L CNN
@@ -243,7 +231,7 @@ F 3 "" H 3100 3800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:LED D3
+L Device:LED D3
 U 1 1 5AB41F7D
 P 4900 4450
 F 0 "D3" H 4892 4195 50  0000 C CNN
@@ -254,7 +242,7 @@ F 3 "" H 4900 4450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R3
+L Device:R R3
 U 1 1 5AB42057
 P 4600 4450
 F 0 "R3" V 4393 4450 50  0000 C CNN
@@ -287,7 +275,7 @@ F 3 "" H 4450 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Screw_Terminal_01x02 J3
+L Connector:Screw_Terminal_01x02 J3
 U 1 1 5AC3CE1A
 P 6300 3250
 F 0 "J3" H 6380 3242 50  0000 L CNN
@@ -298,7 +286,7 @@ F 3 "~" H 6300 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Screw_Terminal_01x02 J4
+L Connector:Screw_Terminal_01x02 J4
 U 1 1 5AC3CE7D
 P 6300 3600
 F 0 "J4" H 6380 3592 50  0000 L CNN
@@ -309,7 +297,7 @@ F 3 "~" H 6300 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Screw_Terminal_01x02 J5
+L Connector:Screw_Terminal_01x02 J5
 U 1 1 5AC3CED5
 P 6300 3950
 F 0 "J5" H 6380 3942 50  0000 L CNN
@@ -364,7 +352,7 @@ F 3 "" H 6100 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D D1
+L Device:D D1
 U 1 1 5AB41BB2
 P 2600 3800
 F 0 "D1" V 2554 3879 50  0000 L CNN
@@ -401,7 +389,7 @@ F 3 "" H 2600 3350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x04 J1
+L Connector_Generic:Conn_01x04 J1
 U 1 1 5AB40A05
 P 2400 3550
 F 0 "J1" H 2320 3125 50  0000 C CNN
@@ -412,7 +400,7 @@ F 3 "~" H 2400 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:Jumper_NC_Dual JP1
+L Device:Jumper_NC_Dual JP1
 U 1 1 5AC3E184
 P 4550 2500
 F 0 "JP1" V 4504 2601 50  0000 L CNN
@@ -423,7 +411,7 @@ F 3 "" H 4550 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Jumper_NC_Dual JP2
+L Device:Jumper_NC_Dual JP2
 U 1 1 5AC3E245
 P 5350 2500
 F 0 "JP2" V 5304 2601 50  0000 L CNN
@@ -476,7 +464,7 @@ TX
 Text GLabel 5300 5200 2    50   Input ~ 0
 RX
 $Comp
-L device:R R5
+L Device:R R5
 U 1 1 5AC3F1E0
 P 5200 4950
 F 0 "R5" H 5270 4996 50  0000 L CNN
@@ -487,7 +475,7 @@ F 3 "" H 5200 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R4
+L Device:R R4
 U 1 1 5AC3F27A
 P 4950 5050
 F 0 "R4" H 5020 5096 50  0000 L CNN
@@ -519,20 +507,10 @@ F 3 "" H 5200 4800 50  0001 C CNN
 	1    5200 4800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4950 5200 5300 5200
-Wire Wire Line
-	5300 5100 5200 5100
-Wire Wire Line
-	4800 5100 5200 5100
-Connection ~ 5200 5100
-Wire Wire Line
-	4950 5200 4800 5200
-Connection ~ 4950 5200
 Text GLabel 4800 5100 0    50   Input ~ 0
 TX
 $Comp
-L device:CP C5
+L Device:CP C5
 U 1 1 5AC41046
 P 4550 3600
 F 0 "C5" H 4668 3646 50  0000 L CNN
@@ -543,7 +521,7 @@ F 3 "" H 4550 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP C6
+L Device:CP C6
 U 1 1 5AC410CC
 P 5800 3600
 F 0 "C6" H 5918 3646 50  0000 L CNN
@@ -582,7 +560,7 @@ F 3 "" H 4550 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x03 UART1
+L Connector_Generic:Conn_01x03 UART1
 U 1 1 5AC53A74
 P 3350 4600
 F 0 "UART1" H 3430 4642 50  0000 L CNN
@@ -608,7 +586,7 @@ RX
 Text GLabel 3150 4600 0    50   Input ~ 0
 TX
 $Comp
-L conn:Conn_01x04 J6
+L Connector_Generic:Conn_01x04 J6
 U 1 1 5AC544EE
 P 6300 4600
 F 0 "J6" H 6380 4592 50  0000 L CNN
@@ -618,14 +596,8 @@ F 3 "~" H 6300 4600 50  0001 C CNN
 	1    6300 4600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4100 3450 3900 3450
-Connection ~ 3600 3450
-Wire Wire Line
-	3600 3550 3750 3550
-Connection ~ 3600 3550
 $Comp
-L device:R_Small R6
+L Device:R_Small R6
 U 1 1 5AD35758
 P 3750 3350
 F 0 "R6" H 3809 3396 50  0000 L CNN
@@ -635,11 +607,8 @@ F 3 "" H 3750 3350 50  0001 C CNN
 	1    3750 3350
 	1    0    0    -1  
 $EndComp
-Connection ~ 3750 3450
-Wire Wire Line
-	3750 3450 3600 3450
 $Comp
-L device:R_Small R7
+L Device:R_Small R7
 U 1 1 5AD357E7
 P 3750 3650
 F 0 "R7" H 3809 3696 50  0000 L CNN
@@ -649,11 +618,8 @@ F 3 "" H 3750 3650 50  0001 C CNN
 	1    3750 3650
 	1    0    0    -1  
 $EndComp
-Connection ~ 3750 3550
-Wire Wire Line
-	3750 3550 3900 3550
 $Comp
-L device:C_Small C8
+L Device:C_Small C8
 U 1 1 5AD35928
 P 3900 3650
 F 0 "C8" H 3992 3696 50  0000 L CNN
@@ -663,11 +629,8 @@ F 3 "" H 3900 3650 50  0001 C CNN
 	1    3900 3650
 	1    0    0    -1  
 $EndComp
-Connection ~ 3900 3550
-Wire Wire Line
-	3900 3550 4100 3550
 $Comp
-L device:C_Small C7
+L Device:C_Small C7
 U 1 1 5AD359AD
 P 3900 3350
 F 0 "C7" H 3992 3396 50  0000 L CNN
@@ -677,9 +640,6 @@ F 3 "" H 3900 3350 50  0001 C CNN
 	1    3900 3350
 	1    0    0    -1  
 $EndComp
-Connection ~ 3900 3450
-Wire Wire Line
-	3900 3450 3750 3450
 $Comp
 L power:GND #PWR0127
 U 1 1 5AD35A84
@@ -726,11 +686,8 @@ F 3 "" H 3900 3750 50  0001 C CNN
 $EndComp
 Text GLabel 4800 5200 0    50   Input ~ 0
 RX
-Wire Wire Line
-	4850 3450 4750 3450
-Connection ~ 4750 3450
 $Comp
-L regul_eigen:L7805SOT89 U1
+L Regulator_Linear:L7805 U1
 U 1 1 5AE0F904
 P 5150 3450
 F 0 "U1" H 5150 3692 50  0000 C CNN
@@ -742,16 +699,24 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b
 $EndComp
 Wire Wire Line
 	3450 3500 3450 3450
-Connection ~ 3450 3450
 Wire Wire Line
 	3450 3500 3100 3500
 Wire Wire Line
 	3100 3500 3100 3550
 Wire Wire Line
-	3450 3550 3200 3550
-Wire Wire Line
 	3200 3550 3200 3450
 Wire Wire Line
 	3200 3450 3100 3450
-Connection ~ 3450 3550
+Wire Wire Line
+	4700 3450 4850 3450
+Wire Wire Line
+	5450 3450 5600 3450
+Wire Wire Line
+	4800 5200 5300 5200
+Wire Wire Line
+	4800 5100 5300 5100
+Wire Wire Line
+	3450 3450 4100 3450
+Wire Wire Line
+	3200 3550 4100 3550
 $EndSCHEMATC
