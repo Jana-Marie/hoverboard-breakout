@@ -4,3 +4,5 @@ Breakout board for hoverboard mainboards, it grands easy access to the boards ua
 screw terminals for the analog inputs, a power LED and a footprint for a nunchuck. 
 
 ![Frontview](https://raw.githubusercontent.com/Jan--Henrik/hoverboard-breakout/master/bobbycar.png)
+![Frontview](https://raw.githubusercontent.com/Jan--Henrik/hoverboard-breakout/master/plug1.jpeg)
+![Frontview](https://raw.githubusercontent.com/Jan--Henrik/hoverboard-breakout/master/plug2.jpeg)
