@@ -1,0 +1,9 @@
+Designator,Count,Value,Package,Link
+U1,1,78L33ACUTR,SOT-89,https://lcsc.com/product-detail/Linear-Voltage-Regulators_STMicroelectronics_L78L33ACUTR_L78L33ACUTR_C14170.html
+D1,1,LED,0805,
+R1,1,220Ohm,0603,
+"R2,R3",2,3.3kOhm,0603,
+"C3,C4",2,100nF,0603,
+J1,1,XH2.54-4Y,-,https://lcsc.com/product-detail/_JST-Sales-America_B4B-XH-A-LF-SN_JST-Sales-America-B4B-XH-A-LF-SN_C144395.html
+NUNCHUK,1,NUNCHUK,-,https://de.aliexpress.com/store/product/2PCS-Replacement-Jack-Socket-Dock-Connector-Port-for-Nintendo-Wii-Right-Left-Socket-Link-Controller/3084037_32881749867.html
+"C1,C2",2,DNP,DNP,
