@@ -1,0 +1,9 @@
+multi:
+    bobbycar_breakout:
+        summary: Hoverboard breakout board for Bobbycars
+        gerbers: bobbycar_breakout/gerber
+        bom: bobbycar_breakout/BOM.csv
+    nunchuk_breakout:
+        summary: Nunchuk to hoverboard connector board
+        gerbers: nunchuk_breakout/gerber
+        bom: nunchuk_breakout/BOM.csv
