@@ -1,4 +1,4 @@
-"ID";"Bezeichner";"Gehäuse";"Stückzahl";"Bezeichnung";"Anbieter und Referenz";
+"ID";"Reference";"Part Number";"Quantity";"Description";"Anbieter und Referenz";
 1;"C2,C1";"C_Disc_D5.0mm_W2.5mm_P5.00mm";2;"100nF";;;
 2;"C3,C4";"C_Disc_D5.0mm_W2.5mm_P5.00mm";2;"1uF";;;
 3;"R2,R1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";2;"To be calculated (only populate if I2c is NOT used)";;;
