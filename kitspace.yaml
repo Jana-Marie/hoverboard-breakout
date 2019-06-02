@@ -3,7 +3,9 @@ multi:
         summary: Hoverboard breakout board for Bobbycars
         gerbers: bobbycar_breakout/gerber
         bom: bobbycar_breakout/BOM.csv
+        site: https://github.com/NiklasFauth/hoverboard-firmware-hack
     nunchuk_breakout:
         summary: Nunchuk to hoverboard connector board
         gerbers: nunchuk_breakout/gerber
         bom: nunchuk_breakout/BOM.csv
+        site: https://github.com/NiklasFauth/hoverboard-firmware-hack
