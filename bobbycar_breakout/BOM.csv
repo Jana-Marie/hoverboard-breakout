@@ -1,18 +1,17 @@
-"ID";"Reference";"Part Number";"Quantity";"Description";"Anbieter und Referenz";
-1;"C2,C1";"C_Disc_D5.0mm_W2.5mm_P5.00mm";2;"100nF";;;
-2;"C3,C4";"C_Disc_D5.0mm_W2.5mm_P5.00mm";2;"1uF";;;
-3;"R2,R1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";2;"To be calculated (only populate if I2c is NOT used)";;;
-4;"R7,R6";"R_0603";2;"Parallel to R2,R1";;;
-5;"C7,C8";"C_0603";2;"100nF";;;
-6;"D1,D2";"D_DO-41_SOD81_P7.62mm_Horizontal";2;"1N400x";;;
-7;"U1";"SOT-89-3_Handsoldering";1;"L7805SOT89";;;
-8;"UART1";"Pin_Header_Straight_1x03_Pitch2.54mm";1;"Conn_01x03";;;
-9;"R3";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";1;"220Ohm (only populate if ADC is NOT used)";;;
-10;"R4,R5";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";2;"3k3";;;
-11;"C5,C6";"CP_Radial_D5.0mm_P2.00mm";2;"22uF";;;
-12;"J1,J2";"JST_XH_B04B-XH-A_04x2.50mm_Straight";2;"JST PH";;;
-13;"J4,J5,J3";"TerminalBlock_4UCON_19963_02x3.5mm_Straight";3;"Screw_Terminal_01x02";;;
-14;"D3";"LED_D3.0mm";1;"LED";;;
-15;"JP1,JP2";"SOLDER-JUMPER_2-WAY";2;"Jumper_NC_Dual";;;
-16;"J6";"NUNCHUCK";1;"Conn_01x04";;;
-17;"G***";"otterimage_crop_13";1;"LOGO";;;
+References,Qty,Description,Manufacturer,MPN,Manufacturer,MPN,Manufacturer,MPN,Manufacturer,MPN,Manufacturer,MPN,Manufacturer,MPN,Manufacturer,MPN,Manufacturer,MPN,Manufacturer,MPN,Manufacturer,MPN,Manufacturer,MPN,Manufacturer,MPN,Digikey,Mouser,RS,Newark,Farnell
+"C2,C1",2,100nF C_Disc_D5.0mm_W2.5mm_P5.00mm,Murata,GRM155R71C104KA88D,Kemet,C0603C104K5RACTU,Yageo,CC0603KRX7R9BB104,Murata,GRM188R71H104KA93D,Yageo,CC0805KRX7R9BB104,Murata,GRM21BR71H104KA01L,,,,,,,,,,,,,490-3261-1-ND,80C0603C104K5R7867,7235228,72J5992,1288255
+"C3,C4",2,1uF C_Disc_D5.0mm_W2.5mm_P5.00mm,Yageo,CC0402KRX5R5BB105,Murata,GRM155R60J105KE19D,Yageo,CC0603KRX7R8BB105,Murata,GRM188R71E105KA12D,Yageo,CC0805KKX7R8BB105,Murata,GRM21BR71H105KA12L,AVX,TAJA105K035RNJ,,,,,,,,,,,490-1320-6-ND,81GRM155R60J105KE19,7235180,68R4627,1845729
+"R2,R1",2,DNP,,,,,,,,,,,,,,,,,,,,,,,,,CHF2010DNP500LXE-ND,,,,
+"R7,R6",2,DNP,,,,,,,,,,,,,,,,,,,,,,,,,CHF2010DNP500LXE-ND,,,,
+"C7,C8",2,DNP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"D1,D2",2,1N400x D_DO-41_SOD81_P7.62mm_Horizontal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+U1,1,78L33ACUTR,,,,,,,,,,,,,,,,,,,,,,,,,497-1200-1-ND,511L78L33ACU,6869426,89K1361,2253467
+UART1,1,DNP,,,,,,,,,,,,,,,,,,,,,,,,,SIP32402ADNP-T1GE4CT-ND,595OPT3004DNPR,8908794,49Y4368,9289658
+R3,1,220Ohm R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yageo,RC0603FR-07220RL,Panasonic,ERJ-3EKF2200V,Vishay,CRCW0603220RFKEA,,,,,,,,,,,,,,,,,,,311-220HRDKR-ND,667ERJ3EKF2200V,8206802,64R5328,9238409
+"R4,R5",2,3k3 R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yageo,RC0402FR-073K3L,Panasonic,ERJ-2RKF3301X,Vishay,CRCW04023K30FKED,Yageo,RC0402FR-073K3L,Panasonic,ERJ-2RKF3301X,Vishay,CRCW04023K30FKED,Yageo,RC0402FR-073K3L,Panasonic,ERJ-2RKF3301X,Vishay,CRCW04023K30FKED,Yageo,RC0402FR-073K3L,Panasonic,ERJ-2RKF3301X,Vishay,CRCW04023K30FKED,P3.30KLCT-ND,71CRCW04023.3KE3,6789263,64R5278,2302691
+"C5,C6",2,22uF CP_Radial_D5.0mm_P2.00mm,Murata,GRM21BR60J226ME39L,AVX,TAJB226K016RNJ,Panasonic,ECA-1HM220,,,,,,,,,,,,,,,,,,,490-1719-1-ND,81GRM21R60J226ME39L,7236029,24R6338,1735531
+"J1,J2",2,B04B-XH-A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"J4,J5,J3",3,DNP,,,,,,,,,,,,,,,,,,,,,,,,,SIP32402ADNP-T1GE4CT-ND,595OPT3004DNPR,8908794,49Y4368,9289658
+D3,1,LED LED_D3.0mm,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"JP1,JP2",2,DNP,,,,,,,,,,,,,,,,,,,,,,,,,SIP32402ADNP-T1GE4CT-ND,595OPT3004DNPR,8908794,49Y4368,9289658
+J6,1,NUNCHUK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
