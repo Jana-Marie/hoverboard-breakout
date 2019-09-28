@@ -1,9 +1,9 @@
-Designator,Count,Value,Package,Link
-U1,1,78L33ACUTR,SOT-89,https://lcsc.com/product-detail/Linear-Voltage-Regulators_STMicroelectronics_L78L33ACUTR_L78L33ACUTR_C14170.html
-D1,1,LED,0805,
-R1,1,220Ohm,0603,
-"R2,R3",2,3.3kOhm,0603,
-"C3,C4",2,100nF,0603,
-J1,1,XH2.54-4Y,-,https://lcsc.com/product-detail/_JST-Sales-America_B4B-XH-A-LF-SN_JST-Sales-America-B4B-XH-A-LF-SN_C144395.html
-NUNCHUK,1,NUNCHUK,-,https://de.aliexpress.com/store/product/2PCS-Replacement-Jack-Socket-Dock-Connector-Port-for-Nintendo-Wii-Right-Left-Socket-Link-Controller/3084037_32881749867.html
-"C1,C2",2,DNP,DNP,
+References,Qty,Description,Manufacturer,MPN,Manufacturer,MPN,Manufacturer,MPN,Digikey,Mouser,RS,Newark,Farnell
+U1,1,78L33ACUTR SOT-89,,,,,,,497-1200-1-ND,511L78L33ACU,6869426,89K1361,2253467
+D1,1,LED blue 0805,,,,,,,,,,,
+R1,1,220Ohm 0603,Yageo,RC0603FR-07220RL,Panasonic,ERJ-3EKF2200V,Vishay,CRCW0603220RFKEA,311-220HRDKR-ND,667ERJ3EKF2200V,8206802,64R5328,9238409
+"R2,R3",2,3.3kOhm 0603,Yageo,RC0402FR-073K3L,Panasonic,ERJ-2RKF3301X,Vishay,CRCW04023K30FKED,P3.30KLCT-ND,71CRCW04023.3KE3,6789263,64R5278,2302691
+"C3,C4",2,100nF 0603,Yageo,CC0603KRX7R9BB104,Murata,GRM188R71H104KA93D,,,490-1519-6-ND,603CC603KRX7R9BB104,7235676,68R4788,8820023
+J1,1,B4B-XH-A(LF)(SN),,https://lcsc.com/product-detail/_JST-Sales-America_B4B-XH-A-LF-SN_JST-Sales-America-B4B-XH-A-LF-SN_C144395.html,,,,,455-2249-ND,,8201551P,73M9436,1516278
+NUNCHUK,1,NUNCHUK,,,,,,,,,,,
+"C1,C2",2,DNP,,https://de.aliexpress.com/store/product/2PCS-Replacement-Jack-Socket-Dock-Connector-Port-for-Nintendo-Wii-Right-Left-Socket-Link-Controller/3084037_32881749867.html,,,,,,,,,
