@@ -4,8 +4,14 @@ multi:
         gerbers: bobbycar_breakout/gerber
         bom: bobbycar_breakout/BOM.csv
         site: https://github.com/NiklasFauth/hoverboard-firmware-hack
+        eda:
+            type: kicad
+            pcb: bobbycar_breakout/bobbycar.kicad_pcb
     nunchuk_breakout:
         summary: Nunchuk to hoverboard connector board
         gerbers: nunchuk_breakout/gerber
         bom: nunchuk_breakout/BOM.csv
         site: https://github.com/NiklasFauth/hoverboard-firmware-hack
+        eda:
+            type: kicad
+            pcb: nunchuk_breakout/nunchuk_breakout.kicad_pcb
