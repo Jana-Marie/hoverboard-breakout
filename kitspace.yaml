@@ -9,7 +9,15 @@ multi:
             pcb: bobbycar_breakout/bobbycar.kicad_pcb
     nunchuk_breakout:
         summary: Nunchuk to hoverboard connector board
-        gerbers: nunchuk_breakout/gerber
+        gerbers: nunchuk_breakout/gerber/single
+        bom: nunchuk_breakout/BOM.csv
+        site: https://github.com/NiklasFauth/hoverboard-firmware-hack
+        eda:
+            type: kicad
+            pcb: nunchuk_breakout/nunchuk_breakout.kicad_pcb
+    nunchuk_breakout_panel:
+        summary: Nunchuk to hoverboard connector board panel
+        gerbers: nunchuk_breakout/gerber/panel/Nunchuk_breakout
         bom: nunchuk_breakout/BOM.csv
         site: https://github.com/NiklasFauth/hoverboard-firmware-hack
         eda:
